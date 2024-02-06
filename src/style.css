@@ -43,7 +43,7 @@ body {
   width: 250px;
   height: 80px;
   border: none;
-  background-color: #b45f06;
+  background-color: orange;
   color: #ffffff;
   font-size: 40px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -86,7 +86,7 @@ body {
 .answer-row>button {
   width: 150px;
   height: 70px;
-  background-color: #b45f06;
+  background-color: orange;
   color: #ffffff;
   font-size: 35px;
   border: none;
@@ -99,4 +99,12 @@ body {
 
 .answer-row>button:active {
   opacity: 0.7;
+}
+
+button.right:active {
+  background-color: green;
+}
+
+button.wrong:active {
+  background-color: red;
 }
